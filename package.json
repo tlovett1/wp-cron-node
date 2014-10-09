@@ -1,6 +1,6 @@
 {
   "name": "wp-cron-node",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Run WP cron.",
   "main": "./lib/detect-wp-core-modifications",
   "bin": {
