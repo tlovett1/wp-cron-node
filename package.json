@@ -1,6 +1,6 @@
 {
   "name": "wp-cron-node",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Run WP cron.",
   "main": "./lib/detect-wp-core-modifications",
   "bin": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "wp-cron-node path/to/wordpress"
   },
-  "author": "",
+  "author": "Taylor Lovett",
   "license": "MIT",
   "dependencies": {},
   "engines": {
