@@ -1,0 +1,18 @@
+{
+  "name": "wp-cron-node",
+  "version": "0.1.0",
+  "description": "Run WP cron.",
+  "main": "./lib/detect-wp-core-modifications",
+  "bin": {
+    "wp-cron-node": "./bin/wp-cron-node"
+  },
+  "scripts": {
+    "test": "wp-cron-node path/to/wordpress"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
