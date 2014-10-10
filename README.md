@@ -8,14 +8,14 @@ A simple Node command to run WordPress cron via PHP CLI. Running this command wi
 1. Install [WP-CLI](http://wp-cli.org/).
 1. Install the wp-cron-node npm package with the following shell command:
 
-    ```
-    npm install -g wp-cron-node
-    ```
+   ```
+   npm install -g wp-cron-node
+   ```
 1. Disable WordPress cron. By adding the following to your ```wp-config.php``` file:
-    
-    ```php
-    define( 'DISABLE_WP_CRON', true );
-    ```
+
+   ```php
+   define( 'DISABLE_WP_CRON', true );
+   ```
 
 ## Usage
 
