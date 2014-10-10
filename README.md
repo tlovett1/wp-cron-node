@@ -3,19 +3,20 @@ WP Cron Node
 
 A simple Node command to run WordPress cron via PHP CLI. Running this command will execute WordPress cron events that are *due for execution*. If you want to execute cron events regardless of schedule, use [WP-CLI cron event run](http://wp-cli.org/commands/cron/event/run/).
 
-## Install via npm
+## Installation
 1. Make sure you have [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.org/) installed.
 1. Install [WP-CLI](http://wp-cli.org/)
 1. Install the wp-cron-node npm package with the following shell command:
+
+    ```
+    npm install -g wp-cron-node
+    ```
+
 1. Disable WordPress cron. By adding the following to your ```wp-config.php``` file:
 
-```php
-define( 'DISABLE_WP_CRON', true );
-```
-
-```
-npm install -g wp-cron-node
-```
+    ```php
+    define( 'DISABLE_WP_CRON', true );
+    ```
 
 ## Usage
 
